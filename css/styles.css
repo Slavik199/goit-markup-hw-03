@@ -5,12 +5,21 @@ body {
     background-color: #fff;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
 ul, ol {
     list-style-type: none;
+margin: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+img {
+    display: block;
 }
 
 .logo {
@@ -201,5 +210,11 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 }
 
-
+.container { 
+max-width: 15;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: 15; 
+margin-right: 15px;
+}
 
