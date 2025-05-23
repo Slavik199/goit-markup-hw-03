@@ -118,11 +118,13 @@ background-color: #404bbf;
 
 .hero-section {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .hero-title {
 font-weight: 700;
 font-size: 56px;
+max-width: 496px;
 
 /* line-height: 60px; */ 
 line-height: 107%;
@@ -139,6 +141,11 @@ letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
 background-color: #4d5ae5;
+display: block;
+min-width: 169px;
+height: 56px;
+border: none;
+border-radius: 4px;
 }
 
 .subtitle {
