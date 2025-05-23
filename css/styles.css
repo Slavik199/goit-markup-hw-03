@@ -154,6 +154,22 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8p;
+}
+
+.feature {
+    padding: 120px 0;
+    
+}
+
+.feature-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+.feature-item {
+width: calc((100% - 72px) / 4);
 }
 
 .feature-item-text {
