@@ -29,6 +29,7 @@ img {
 max-width: 1158px;
 padding: 0 15px;
 margin: 0 auto;
+
 }
 
 .div-container {
@@ -167,16 +168,16 @@ margin-bottom: 8px;
 }
 
 .visually-hidden {
-    position: absolute;
+  position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  clip-path: inset(50%);
-  white-space: nowrap;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .feature-list {
@@ -260,6 +261,11 @@ margin-bottom: 72px;
      flex-wrap: wrap;
      column-gap: 24px;
      row-gap: 48px;
+}
+
+.portfolio-secton {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-container {
