@@ -67,7 +67,6 @@ color: #2e2f42;
 
 .header-nav {
 display: flex;
-gap: 40px;
 align-items: center;
 }
 .nav-list {
